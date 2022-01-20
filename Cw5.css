@@ -1,0 +1,55 @@
+.bord {border: 3px solid black;}
+.j-f-c {justify-content: space-between;}
+.j-f-c-c {justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex}
+.bgr {background: silver}
+.f-l-d-r1 {flex-direction: row;
+          display: flex;}
+.b-s {box-sizing: border-box}
+.Ah {height: 100px;}
+.AA {width: 120px;
+    height: 50px;}
+.mar20 {margin: 20px;}
+.Bh {height: 300px;}
+.pad20{padding: 20px;}
+.BA {height: 250px;}
+.Ch {height: 200px;}
+.DA {height: 60px;}
+.EA {height: 50px}
+.mart {margin-top: 20px;}
+
+
+@media screen and (min-width: 992px) {
+.CA {height: 150px;}
+.w1100 {width: 1100px;}
+.h600 {height: 600px;}
+.h601 {height: 600px;}
+.w900 {width: 755px;}
+.w400 {width: 360px;}
+.w300 {width: 300px;}
+.FA {width: 1050px;
+    height: 50px;}
+.Ch {height: 200px;}
+.f-l-d-r2 {flex-direction: row;
+    display: flex;}
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .Ch {height: 380px;}
+    .CA {height: 150px;}
+    .f-l-d-r2 {flex-direction: column;
+        display: flex;}
+    .h601 {height: 400px;}
+    .h600 {height: 800px;}
+
+}
+@media screen and (max-width: 768px) {
+    .Ch {height: 300px;}
+    .CA {height: 100px;}
+    .f-l-d-r2 {flex-direction: column;
+        display: flex;}
+    .h601 {height: 400px;}
+    .h600 {height: 800px;}
+
+}
